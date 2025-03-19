@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3の倍数リスト</title>
+</head>
+<body>
+    <h1>3の倍数リスト</h1>
+    <ul>
+        <!-- 1〜20の整数の中で3の倍数を表示 -->
+        <th:block th:each="number : ${T(java.util.stream.IntStream).rangeClosed(1, 20).filter(n -> n % 3 == 0).toArray()}">
+            <li th:text="${number}"></li>
+        </th:block>
+    </ul>
+</body>
+</html>

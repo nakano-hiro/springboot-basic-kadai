@@ -1,0 +1,17 @@
+package com.example.springtutorial.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.springtutorial.entity.User;
+
+// リポジトリはインターフェイス。
+// 使うときは以下のように「JpaRepositoryを継承」する。
+// extends JpaRepository<エンティティ名, 主キーのデータ型>
+public interface UserRepository extends JpaRepository<User, Integer> {
+
+	// ユーザー名で完全一致検索
+	// ※フィールド名はアッパーキャメルケースにしないとだめ
+	List<User> findByUserName(String userName);
+}

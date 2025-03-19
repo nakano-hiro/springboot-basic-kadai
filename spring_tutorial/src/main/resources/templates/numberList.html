@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Number List</title>
+</head>
+<body>
+    <h1>3の倍数リスト</h1>
+    <ul>
+        <li th:each="num : ${#numbers.sequence(1, 20)}" 
+            th:if="${num % 3 == 0}" 
+            th:text="${num}"></li>
+    </ul>
+</body>
+</html>
