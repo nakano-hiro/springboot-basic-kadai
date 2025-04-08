@@ -6,8 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="spring-boot-starter"/>
+		<item key="selection" value=" th:field"/>
 		<list key="findhistory">
+			<item value=" th:field"/>
+			<item value="required"/>
+			<item value="cursor"/>
+			<item value="hasErrors"/>
+			<item value="img"/>
+			<item value="param"/>
+			<item value="Tomcat"/>
 			<item value="spring-boot-starter"/>
 			<item value="spring_db"/>
 		</list>
