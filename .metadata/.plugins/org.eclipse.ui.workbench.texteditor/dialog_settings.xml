@@ -6,8 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=" th:field"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="super"/>
+			<item value="review"/>
+			<item value="reviewPage"/>
+			<item value="house"/>
 			<item value=" th:field"/>
 			<item value="required"/>
 			<item value="cursor"/>
@@ -28,5 +32,9 @@
 		<item key="DIALOG_WIDTH" value="414"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="409"/>
 	</section>
 </section>
